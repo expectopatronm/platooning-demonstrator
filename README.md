@@ -1,6 +1,6 @@
 # Platooning Demonstrator
 
-Originally envisioned as a demonstrator for the Bosch AI CON 2019, the *platooning* system consists of two cars, a *leading car* and a *following car*. The leading car can be driven manually using a PS4 controller and the following car will autonomously follow the leading car. 
+Originally envisioned as a demonstrator for an AI Conference, the *platooning* system consists of two cars, a *leading car* and a *following car*. The leading car can be driven manually using a PS4 controller and the following car will autonomously follow the leading car. 
 
 ![Cars in Action](documentation_files/images/inaction.gif)
 
@@ -77,7 +77,7 @@ The camera system also includes a pan-tilt mechanism, which is tasked with orien
 
 These instructions will get you up and running on your local machine for development and testing purposes. 
 
-* For the current cars, make sure the '**BTIA_hra3si**' WiFi is up and running, and you are connected to it on you local machine. Switch to whichever common WiFi you and the Jetson Nanos stay on apart from this.
+* For the current cars, make sure a common WiFi is up and running, and you are connected to it on you local machine. Switch to whichever common WiFi you and the Jetson Nanos stay on apart from this.
 
 * Make sure all the physical connections shown below are in place for both cars and especially that the Arduino Uno is connected to the Jetson Nano via the USB UART.
 
@@ -138,23 +138,3 @@ These instructions will get you up and running on your local machine for develop
 * Shankar Kumar
 
 ---
-
-## License
-
-[![License: BIOSL v4](http://bios.intranet.bosch.com/bioslv4-badge.svg)](#license)
-
-> Copyright (c) 2009, 2019 Robert Bosch GmbH and its subsidiaries.
-> This program and the accompanying materials are made available under
-> the terms of the Bosch Internal Open Source License v4
-> which accompanies this distribution, and is available at
-> http://bios.intranet.bosch.com/bioslv4.txt
-
-<!---
-
-	Copyright (c) 2009, 2019 Robert Bosch GmbH and its subsidiaries.
-	This program and the accompanying materials are made available under
-	the terms of the Bosch Internal Open Source License v4
-	which accompanies this distribution, and is available at
-	http://bios.intranet.bosch.com/bioslv4.txt
-
--->
